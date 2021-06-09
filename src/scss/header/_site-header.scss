@@ -1,0 +1,16 @@
+@import '../mixins/icons';
+
+.site-header {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+.site-header__nav-icon {
+  @include icon();
+  @include material-icon(); 
+}
+

@@ -1,0 +1,10 @@
+@import '../variables';
+
+@mixin icon() {
+  cursor: pointer;
+  padding: $icon-padding;
+}
+
+@mixin material-icon() {
+  color: $material-icon-color;
+}
