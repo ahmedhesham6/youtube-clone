@@ -1,0 +1,52 @@
+.widget-video {
+  margin-bottom: 30px;
+  width: 295px;
+}
+  
+
+  
+.widget-video__author {
+  img {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 40px;
+  }
+}
+  
+.widget-video__details {
+  display: flex;
+  margin-top: 10px;
+}
+
+.widget-video__title {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;  
+  }
+
+  a,
+  span {
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
+
+.widget-video__thumbnail {
+  height: 170px;
+  width: 100%;
+  
+  img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+}
+  
